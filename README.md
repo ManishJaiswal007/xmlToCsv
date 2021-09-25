@@ -11,7 +11,7 @@ This scipt convert elements from xml url to Csv format.
 We assume you already have system with python and pip installed. Use below command to install pandas :-
 
 ```
-	pip install pandas
+pip install pandas
 ```
 
 ## Run script 💻
