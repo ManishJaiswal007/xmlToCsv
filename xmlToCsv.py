@@ -3,7 +3,6 @@ from xml.etree.ElementTree import parse
 import pandas as pd
 
 
-
 def xmlToCsv(url,item,filename):
     var_url = urlopen('https://www.europarl.europa.eu/rss/doc/top-stories/en.xml')
     xmldoc = parse(var_url)
@@ -19,6 +18,7 @@ def xmlToCsv(url,item,filename):
     df.to_csv(filename,index=False)
 
 
+# define parameters
 url = 'https://www.europarl.europa.eu/rss/doc/top-stories/en.xml' # declare url
 item = 'channel/item'  #declare XMl item
 filename = 'channel_Data.csv' # csv filename
