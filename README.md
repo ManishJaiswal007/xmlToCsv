@@ -22,6 +22,8 @@ python3 xmlToCsv.py
 
 ## Parameters
 
+To Change the parameters you either import scipt or open and modify values of parameters.
+
 | Params      | Description 		         |
 | ----------- | ---------------------------------|
 | url	      | url containing xml response      |
